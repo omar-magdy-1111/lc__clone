@@ -1,0 +1,31 @@
+.ProductID {
+  max-height: 100vh;
+}
+/* .ProductID .images{
+    position: relative;
+}
+.ProductID .images .img{
+    border: 2px solid rgb(204, 202, 202);
+    margin: 5px ;
+    padding: 0 !important;
+    cursor: zoom-in;
+} */
+
+
+
+.carousel-indicators .active,
+.carousel-indicators [data-bs-target]{
+  position: relative;
+  width: 140px !important;
+  /* height: 70px !important; */
+  opacity: 1 !important;
+}
+.carousel-indicators [data-bs-target] img,
+.carousel-indicators [data-bs-target] img {
+  position: absolute;
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+  object-fit: contain;
+
+}

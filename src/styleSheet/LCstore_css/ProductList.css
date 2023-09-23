@@ -1,0 +1,98 @@
+.ProductList .ProductCard {
+  position: relative;
+  overflow: hidden;
+}
+.ProductList .ProductCard .Add-To-Like-List {
+  position: absolute;
+  right: 18px;
+  top: 1%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  /* transition: ease .5s; */
+}
+/* .setting p button:hover{
+
+  color: rgb(51, 51, 181);
+} */
+
+.setting {
+  position: absolute;
+  top: 1%;
+  left: 18px;
+}
+.setting p button {
+  font-size: 1.3rem;
+  color: rgb(89, 89, 90);
+}
+.setting .list-group-item{
+    cursor: pointer;
+}
+.setting .collapse{
+    height: 20%;
+    max-height:20% ;
+}
+.setting .list-group-item{
+    transition: ease .6s;
+}
+/* .setting .list-group-item:hover{
+    color: rgb(4, 32, 243);
+    /* transform: scale(1.1); */
+  
+  
+  /* padding: 8px 8px 8px 10px; */
+
+
+
+
+
+.toggle:active {
+  background-color: #198754;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .ProductList .dropdown{
+position: absolute;
+top: 5px;
+right: 18px;
+font-size: 1.5rem;
+z-index: 8;
+
+}
+.ProductList .dropdown .dropdown-menu{
+    box-shadow: -39px 139px 4px 1286px #00000057;
+    border: 1px solid #cfd0d5;
+    transition: ease-in .5s;
+    overflow: hidden;
+}
+.ProductList .dropdown .dropdown-menu li a{
+    color: #343434;
+    transition: ease-in .1s;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.ProductList .dropdown .dropdown-menu li a:hover{
+    color: #242424;
+    font-weight: bold;
+}  
+/* transform: scale(1.04);*/

@@ -1,0 +1,17 @@
+.SignUp{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1010108e;
+    background-image: url('https://i0.wp.com/www.turk-now.com/wp-content/uploads/2020/12/LC-Waikiki.jpg?resize=780%2C470&ssl=1');
+    background-blend-mode: color-burn;
+     background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.SignUp .card{
+    max-width: 300px;
+    background-color: rgba(255, 255, 255, 0.628);
+    box-shadow: 0px 0px 25px 14px rgba(255, 255, 255, 0.323);
+}

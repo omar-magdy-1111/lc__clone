@@ -1,0 +1,19 @@
+.Favorite table thead tr th,
+.Favorite table thead tr th{
+
+    text-align: center;
+}
+.Favorite table tbody tr th,
+.Favorite table tbody tr td{
+    line-height: 100px;
+    text-align: center;
+    
+    
+}
+.Unlike{
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+.img-favourite{
+    cursor: zoom-in;
+}

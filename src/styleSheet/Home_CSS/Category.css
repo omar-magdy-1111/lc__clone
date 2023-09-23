@@ -1,0 +1,175 @@
+.head-name {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-shadow: -6px -4px 9px rgba(100, 100, 100, 0.75);
+}
+
+
+.sub-merch-group ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sub-merch-group ul li {
+    cursor: pointer;
+    margin-top: 25px;
+    
+}
+.sub-merch-group ul li a {
+ text-decoration: none;
+}
+
+.sub-merch-group ul li h3 {
+    text-align: center;
+    color: rgb(77, 74, 74);
+    font-size: 1.7rem;
+}
+
+.sub-merch-group ul li img {
+    border-radius: 50%;
+    border: 8px solid rgb(202, 202, 202);
+    overflow: hidden;
+}
+
+.currently-story img {
+    object-fit: cover;
+}
+
+.inner-header {
+    width: 100vw;
+    overflow: hidden !important;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.inner-header img {
+    width: 100%;
+    object-fit: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.d1 {
+    position: absolute;
+    background-image: url(https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/110523-egen-large-header-d.jpg);
+
+    height: 30vh;
+    width: 15vw;
+    background-position: 0 50%;
+
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    animation: dd1 10s infinite, dd12 10s infinite;
+    animation-delay: 4s, 14s;
+}
+
+.d2 {
+    position: absolute;
+    background-image: url(https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/110523-egen-large-header-d.jpg);
+
+    height: 50vh;
+    width: 25vw;
+
+    background-position: -10vw 50%;
+    left: 10vw;
+
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    animation: dd2 10s infinite;
+    animation-delay: 4s;
+}
+
+.d3 {
+    position: absolute;
+    background-image: url(https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/110523-egen-large-header-d.jpg);
+    overflow: hidden;
+
+    height: 100vh;
+    width: 40vw;
+    left: 25vw;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+    background-position: -35vw 50%;
+
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    animation: dd3 10s infinite;
+    animation-delay: 4s;
+}
+
+.d4 {
+    position: absolute;
+    overflow: hidden;
+    background-image: url(https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/110523-egen-large-header-d.jpg);
+
+    height: 80vh;
+    width: 25vw;
+    left: 60vw;
+    background-position: -70vw 50%;
+
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    animation: dd4 10s infinite;
+    animation-delay: 4s;
+}
+
+@keyframes dd1 {
+    0% {}
+
+    50% {
+        width: 95vw;
+    }
+}
+
+@keyframes dd12 {
+    0% {}
+
+    50% {
+        background-position: Calc(0vw - 40px) 50%;
+    }
+}
+
+@keyframes dd2 {
+    0% {}
+
+    50% {
+        background-position: Calc(-10vw - 40px) 50%;
+    }
+}
+
+@keyframes dd3 {
+    0% {}
+
+    50% {
+        background-position: Calc(-35vw - 40px) 50%;
+    }
+}
+
+@keyframes dd4 {
+    0% {}
+
+    50% {
+        background-position: Calc(-70vw - 40px) 50%;
+    }
+}
